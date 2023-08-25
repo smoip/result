@@ -1,6 +1,6 @@
 # Result
 
-Cheap and cheeful monad-inspired result handling for Python.  
+Cheap and cheerful monad-inspired result handling for Python.  
 Provides a generic API for arbitrary actions to simplify error handling and control flow.  
 Enforces presence of `success` and `failure` on `Result` instances.  
 Calls to `succeed` must supply a content object, which can then be safely accessed.  
