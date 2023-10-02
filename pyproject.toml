@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "result"
+version = "0.1.0"
+description = "Cheap and cheerful monad-inspired result handling for Python"
+authors = ["David Roberts <drsmoip@gmail.com>"]
+homepage = "https://github.com/smoip/result"
+repository = "https://github.com/smoip/result"
+license = "MIT"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
