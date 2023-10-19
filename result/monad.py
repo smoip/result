@@ -23,7 +23,8 @@ class Result:
 
     def validate(self):
         if self.success:
-            assert self.content
+            # empty iterables are valid return values
+            assert self.content or len(self.content) == 0
         else:
             assert self.error
         assert not (hasattr(self, "content") and hasattr(self, "error"))
